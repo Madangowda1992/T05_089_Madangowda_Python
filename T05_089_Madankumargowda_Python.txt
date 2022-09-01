@@ -1,0 +1,125 @@
+#Python Introduction
+''' Python is  an open source,object oriented, dynamin programming language, It combines the features of C and Java
+   Python was developed by Guido Van Rossum in the year of 1991.
+   The name Python originated from one Tv show called 'Monthy pythons flying circus
+Features of Python
+1--> Python is simple
+    we can easily read the python programming as we read english
+    It gives more clarity and less stress in understanding the syntax of the language
+2-->Python is easy to learn
+    Python user very few keywords and its program uses very simple structure
+3--> Open source
+    As it is free we can use it on any time and any where on any platform
+4-->Dynamically typed
+    We no need to declare and assign any thing in python before we use
+    we can use dynamically as and when required.
+5-->Platform independent
+    Once the python compiler compiles the source code,It generates Byte code.
+    that byte code can be used on any operating systems using (pvm)Python virtual machine.
+6-->OOPS based
+    Python supports object oriented programming paradigm.
+    so that code reusasbility is easy python.
+7--> Interpreted
+    Once the python compiler compiles the source code, It genertes to an intermediate code called
+    byte code. The Intermediate code will again executed by PVM. Inside Pvm,The Interpreter converts
+     the byte code into machine code so that the processer will understand it.
+
+Disadvantages of Python
+    Python is a time consuming language.
+    Because of its flexibility, other programming languages face difficulty while typing.
+'''
+# variables in Python:
+''' 
+    In Python, a variable is a label that you can assign a value to it.
+    And a variable is always associated with a value.
+    while declaring a variable, we no need to declare the datatype of it.
+    example int a = 10 The = is the assignment operator,we can  assign a value to the variable_name.
+    The value can be anything like a number, a string that we can  assign to the variable.
+    
+    Naming of variables:
+    Variable names can contain only letters, numbers, and underscores (_). 
+    They can start with a letter or an underscore (_),but  not with a number.
+    Variable names cannot contain spaces. To separate words in variables,we have to use underscore.
+    Variable names cannot the same as Python keywords, reserved words, and built-in functions in Python.
+'''
+#Datatypes in Python:
+''' Python is a dynamically typed language, hence we do not need to define the type of the variable 
+    while declaring it.The interpreter implicitly binds the value with its type.
+    Python enables us to check the type of the variable used in the program. 
+    Python provides us the type() function, which returns the type of the variable passed.
+    example: type(a) //data type of a will return here.
+     
+    The data types defined in Python are given below.
+    Numbers :(int,float,complex)
+    Sequence Type :(string)
+    Boolean:(True,False) 
+'''
+#keywords in Python
+'''Python keywords are unique words reserved with defined meanings and functions that we can only apply for those functions. 
+    You'll never need to import any keyword into your program because they are permanently present.
+    Python's built-in methods and classes are not the same as the keywords.
+    Built-in methods and classes are constantly present.
+    Python has more than 35 keywords and few of them are
+    
+    keywords in Python are: 
+    False
+    else	
+    import	
+    pass
+    break	
+    except	
+    in	
+    raise
+    True	
+    class	
+    finally		
+    return
+    continue	
+    try
+    while'''
+#Operaters in Python:
+''' The operator is a symbol , responsible for a particular operation between two operands.
+    Operators are the pillars of a program on which the logic is built in a specific programming language.
+    Python provides a variety of operators. They are:
+
+    Arithmetic operators :(+,-,*,/,%,//)
+        useful in arithmetic operations:sum,diffrence,multiplication,division etc
+        
+    Comparison operators: (<,>,<=,>=,==,!=)
+        useful in comparing the two values in a condition.   
+        
+    Assignment Operators:(=,+=,-=,**=)
+        while assigning any value to a variables, we use it example a =20    
+        
+    Logical Operators:   (and,or,not)
+        Logical operators are used in conditions to check it is true or not
+        
+    Bitwise Operators: 
+        Bitwise operators perform the bitwise operations.
+        example: a=5
+                bitwise(a)=101
+                
+    Membership Operators: (in,not in)
+        we use to check whether the member is exist in a list or set
+        if exists,It return True  if not,return false
+        
+    Identity Operators:(is,is not)
+        is :returns true if the reference present at both sides point to the same object.
+        is not:	returns true if the reference present at both sides do not point to the same.
+        example:a=10
+                b=10 '''
+#IDEs(Pycharm)
+''' ctl+shift+f10: Run
+    shift+f9:debug
+    ctrl+f2 :stop the debugging
+    ctrl+shift+E: python console
+    ctrl+alt+s :settings
+    ctrl+e :recent files
+    ctrl+n: classes
+    ctrl+alt+f12: file path'''
+
+
+
+
+
+
