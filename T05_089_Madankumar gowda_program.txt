@@ -1,0 +1,56 @@
+print('#########-------> variables example program <--------##########')
+#create
+data=100
+print('Demo for creation:')
+print('The value of data is: {}'.format(data))
+#update
+data=200
+print('Demo for update:')
+print('The updated value for data is :{}'.format(data))
+#delete
+print('Demo for deleting the variables:')
+del data
+#print('the data after deletion:',data)
+
+glob_var=10
+global_text='global'
+#global and local variables
+def var_demo():
+    loc_var=20
+    print('------var_demo------')
+    print('The local variables is:',loc_var)
+    print('The global variable is:',glob_var)
+def var_demo1():
+    loc_var=40
+    print('------var_demo1------')
+    print('The local variables is:', loc_var)
+    print('The global variable is:', glob_var)
+var_demo()
+var_demo1()
+print('#############------> Data type example program <-------#############')
+def num_demo_int():
+    a=100
+    print('The values present in variables is: {} and its data type is: {}'.format(a,type(a)))
+def num_demo_float():
+    a=100.5
+    print('The values present in variables is: {} and its data type is: {}'.format(a, type(a)))
+def num_demo_boolean():
+    data1=int(input('enter the first value :'))
+    data2=int(input('Enter the second value :'))
+    result= data1 > data2
+    if result is True:
+        print('The greter value is :{}'.format(data1))
+        print('The type of result is:',type(result))
+    elif result is False:
+        print('The greter value is :{}'.format(data2))
+        print('The type of result is:', type(result))
+
+def num_demo_string():
+    text=input('Enter the string')
+    print('The global text is :',global_text)
+    print('The method text is:',text)
+
+num_demo_int()
+num_demo_float()
+num_demo_boolean()
+num_demo_string()
